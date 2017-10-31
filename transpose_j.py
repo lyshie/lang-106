@@ -11,7 +11,7 @@ def main():
     for i in range(ord('J'), ord('J') + 1):
         items[chr(i)] = list()
 
-    with open('座位編號_20171025_2.csv', 'rb') as csvfile:
+    with open('座位編號_20171031_2.csv', 'rb') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             area = row['座位區域']
